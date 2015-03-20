@@ -1,5 +1,12 @@
 # dice
 
+## About
+This is a simple dice-rolling app, written to get familiar with
+ClojureScript and om. It's also pretty good-looking. And, you
+know, rolls dice for you. Which is nice.
+
+Check it out online at
+[dice.whentheresawill.net](http://dice.whentheresawill.net)
 
 ## Development
 
@@ -81,10 +88,9 @@ Now your app is running at
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2015 Will Lee-Wagner
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License
 
 ## Chestnut
 
