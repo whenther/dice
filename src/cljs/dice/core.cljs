@@ -67,7 +67,7 @@
                       and turn off the sound or view this page. But if you're reading this,
                       I guess you already figured that out.")
           (dom/p nil
-                 (dom/span nil "The app was built, with love by Will Lee-Wagner.
+                 (dom/span nil "The app was built with love by Will Lee-Wagner.
                                 It's written in ClojureScript with the om library, mostly to
                                 learn the language. For more about the technology,
                                 and to report any issues, see ")

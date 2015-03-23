@@ -1,11 +1,11 @@
-(defproject dice "0.1.0-SNAPSHOT"
+(defproject dice "1.0.0"
   :description "A simple dice-rolling webapp"
   :url "http://dice.whentheresawill.net"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "MIT License"
+            :url "https://github.com/whenther/dice/blob/develop/LICENSE"}
 
   :source-paths ["src/clj"]
-:repl-options {:timeout 200000} ;; Defaults to 30000 (30 seconds)
+  :repl-options {:timeout 200000} ;; Defaults to 30000 (30 seconds)
 
   :test-paths ["spec/clj"]
 
