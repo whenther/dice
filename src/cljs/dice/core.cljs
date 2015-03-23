@@ -23,8 +23,8 @@
     (aset audio "src" file)
     audio))
 
-(def click-sound (get-sound "/audio/click.wav"))
-(def roll-sound (get-sound "/audio/roll.wav"))
+(def click-sound (get-sound "audio/click.wav"))
+(def roll-sound (get-sound "audio/roll.wav"))
 
 (defn play-sound! [sound]
   (if (:play-audio @dice-state)
@@ -73,6 +73,9 @@
                                 and to report any issues, see ")
                  (dom/a #js {:href "https://github.com/whenther/dice"
                              :target "_blank"} "github.com/whenther/dice")
+                 (dom/span nil ". To make it even easier, check out the installable")
+                 (dom/a #js {:href "https://chrome.google.com/webstore/detail/dice/nmcnkcfhglpcijnmdlamihfjeegangfp"
+                             :target "_blank"} "Chrome App version")
                  (dom/span nil ". For more about my other projects, or if you want to chat,
                                 see my ")
                  (dom/a #js {:href "http://whentheresawill.net"
@@ -146,7 +149,7 @@
                     choices))))))
 
 (defn number-bar [app owner]
-  (option-bar app owner #js {:className "bar number-bar"} "number" :number [1 2 3 5]))
+  (option-bar app owner #js {:className "bar number-bar"} "number" :number [1 2 3 4 5]))
 
 (defn sides-bar [app owner]
   (option-bar app owner #js {:className "bar sides-bar"} "sides" :sides [3 6 8 10 12 20]))

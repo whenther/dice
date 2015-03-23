@@ -342,8 +342,8 @@ h1, h2, h3, h4, h5, h6 {
           transition: left 500ms ease;
 }
 
-.about-page h1, h2, h3, h4, h5, h6 {
-  font-weight: inital;
+.about-page h1, .about-page h2, .about-page h3, .about-page h4, .about-page h5, .about-page h6 {
+  font-weight: initial;
 }
 
 .about-page.show {
