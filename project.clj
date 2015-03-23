@@ -1,4 +1,4 @@
-(defproject dice "1.0.0"
+(defproject dice "1.0.2"
   :description "A simple dice-rolling webapp"
   :url "http://dice.whentheresawill.net"
   :license {:name "MIT License"
@@ -30,8 +30,8 @@
                                         :output-dir    "resources/public/js/out"
                                         :source-map    "resources/public/js/out.js.map"
                                         :preamble      ["react/react.min.js"]
-                                        :optimizations :whitespace
-                                        :pretty-print  true}}}}
+                                        :optimizations :advanced
+                                        :pretty-print  false}}}}
 
   :profiles {:dev {:source-paths ["env/dev/clj"]
                    :test-paths ["test/clj"]
