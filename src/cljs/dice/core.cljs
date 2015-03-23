@@ -73,7 +73,7 @@
                                 and to report any issues, see ")
                  (dom/a #js {:href "https://github.com/whenther/dice"
                              :target "_blank"} "github.com/whenther/dice")
-                 (dom/span nil ". To make it even easier, check out the installable")
+                 (dom/span nil ". To make it even easier, check out the installable ")
                  (dom/a #js {:href "https://chrome.google.com/webstore/detail/dice/nmcnkcfhglpcijnmdlamihfjeegangfp"
                              :target "_blank"} "Chrome App version")
                  (dom/span nil ". For more about my other projects, or if you want to chat,
