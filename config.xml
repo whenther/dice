@@ -2,7 +2,7 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "net.whentheresawill.dice"
-        versionCode = "10"
+        versionCode = "1"
         version     = "1.0.2" >
 
     <name>DICE</name>
@@ -15,4 +15,5 @@
         Will Lee-Wagner
     </author>
 
+    <preference name="android-minSdkVersion" value="19" />
 </widget>
