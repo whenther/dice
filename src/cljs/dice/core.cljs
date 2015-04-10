@@ -84,7 +84,7 @@
                  (dom/a #js {:href "www.linkedin.com/in/willlw"
                              :target "_blank"} "LinkedIn")
                  (dom/span nil " profile!"))
-          (dom/p nil "cc Will Lee-Wagner 2015, MIT License")))))
+          (dom/p nil "(c) Will Lee-Wagner 2015, MIT License")))))
 
 (defn hamburger-button [app owner]
   (om/component
@@ -101,7 +101,7 @@
       (dom/div #js {:className "top-bar-buttons"}
         (om/build about-toggle app)
         (om/build sound-toggle app))
-      (dom/h3 #js {:className "title"} "DICE")
+      (dom/h2 #js {:className "title"} "DICE")
       (om/build hamburger-button app))))
 
 (defn option-buton [state owner opts]
@@ -115,12 +115,12 @@
                        :onClick  #(go
                                    (play-sound! click-sound)
                                    (>! choose (:option opts)))}
-                  (dom/h2 nil (:option opts))))))
+                  (dom/h3 nil (:option opts))))))
 
 (defn option-label [app owner {:keys [:label]}]
   (om/component
-    (dom/div #js {:className (add-show-class "option-label" (:show-side app))}
-       (dom/h4 nil label)
+    (dom/div #js {:className (add-show-class "option-label h4" (:show-side app))}
+       (dom/h4 #js {:className "option-label-text"} label)
        (dom/div #js {:className "option-label-click-zone"
                      :onClick #(om/update! app :show-side (not (:show-side app)))}))))
 

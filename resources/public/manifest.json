@@ -1,7 +1,7 @@
 {
   "name": "DICE",
   "description": "A simple dice-rolling app.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "manifest_version": 2,
   "app": {
     "background": {

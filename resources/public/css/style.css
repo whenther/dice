@@ -1,5 +1,14 @@
 @font-face { font-family: Oswald; src: url('../fonts/Oswald-Light.ttf'); }
 
+html {
+    font-size: 16px;
+}
+
+h1, .h1 {font-size: 1.4rem;}
+h2, .h2 {font-size: 1.25rem;}
+h3, .h3 {font-size: 1.1rem;}
+h4, .h4, p {font-size: 1rem;}
+
 html, body, #app, .container {
   height: 100%;
   width: 100%;
@@ -115,7 +124,7 @@ a {
   z-index: 2;
 }
 
-.option-label h4 {
+.option-label-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -342,7 +351,6 @@ a {
   text-align: middle;
 
   -webkit-transition: left 500ms ease;
-
           transition: left 500ms ease;
 }
 
