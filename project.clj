@@ -1,4 +1,4 @@
-(defproject dice "1.0.2"
+(defproject dice "1.0.3"
   :description "A simple dice-rolling webapp"
   :url "http://dice.whentheresawill.net"
   :license {:name "MIT License"
